@@ -5,7 +5,7 @@ let user = {
     name: 'Mario',
     email: 'Mario@gmail.com',
     password: '123',
-    levle: 1,
+    level: 1,
     highScore: 90
 }
 router.get('/api', 
