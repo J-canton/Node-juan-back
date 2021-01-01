@@ -15,6 +15,11 @@ let user = {
     highScore: 90
 }
 
+app.get('/', 
+    (req,res)=>{
+        res.json({msg: "HELLO WORLD"})
+    }
+);
 
 app.get('/api/arkanoid/login', 
     (req, res)=>{
