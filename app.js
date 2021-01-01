@@ -16,7 +16,7 @@ let user = {
 }
 
 
-app.get('/arkanoid/login', 
+app.get('/api/arkanoid/login', 
     (req, res)=>{
         res.json(user)
     }
